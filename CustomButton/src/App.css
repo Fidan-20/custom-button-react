@@ -1,0 +1,48 @@
+.custom-button {
+  display: inline-block;
+  margin: 10px;
+}
+
+.custom-button .button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-button .button:hover {
+  background-color: #0056b3;
+}
+
+.custom-button.warn .button {
+  background-color: #dc3545;
+}
+
+.custom-button .hint {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.custom-button:hover .hint {
+  display: block;
+}
+.custom-button .message {
+  margin-top: 10px;
+  padding: 60px; 
+  margin: 50px auto;
+  border-radius: 5px;
+  color: #333;
+   border:3px solid black ;
+  
+
+}
